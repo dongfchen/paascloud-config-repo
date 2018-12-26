@@ -20,7 +20,7 @@ spring:
   redis:
     host: paascloud-db-redis
     password: 123456
-    port: 6379
+    port: 80
     timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
