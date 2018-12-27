@@ -17,12 +17,6 @@ spring:
     port: 5672
     username: guest
     password: guest
-  redis:
-    database: 1
-    host: paascloud-db-redis
-    port: 6379
-    password: "root"
-    timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     filters: stat,wall
