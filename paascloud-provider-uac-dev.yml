@@ -10,7 +10,7 @@ spring:
     database: 1
     host: paascloud-db-redis
     port: 6379
-    password: root
+    password: "root"
     timeout: 0
 
 mybatis:
