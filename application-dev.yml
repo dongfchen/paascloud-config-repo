@@ -20,7 +20,7 @@ spring:
   redis:
     database: 1
     host: paascloud-db-redis
-    port: 6397
+    port: 6379
     password: root
     timeout: 0
   datasource:
