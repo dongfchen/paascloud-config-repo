@@ -1,4 +1,4 @@
-server:
+ server:
   tomcat:
     uri-encoding: UTF-8
     remote-ip-header: x-forwarded-for
@@ -19,7 +19,7 @@ spring:
     password: guest
   redis:
     host: paascloud-db-redis
-    password:root
+    password: root
     port: 6397
     timeout: 0
   datasource:
